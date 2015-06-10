@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>opinionated.basicauthentication</id>
+    <version>1.0.0</version>
+    <authors>Carlos Iriarte</authors>
+    <owners>Carlos Iriarte</owners>
+    <licenseUrl>https://github.com/ciriarte/opinionated.basicauthentication/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/ciriarte/opinionated.basicauthentication</projectUrl>
+    <iconUrl>https://cloud.githubusercontent.com/assets/5928/8072144/c0605708-0ec6-11e5-98d9-b513d342c905.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Basic Authentication Middleware</description>
+    <releaseNotes>First Release.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>owin aspnet basic authentication</tags>
+    <dependencies>
+      <dependency id="Microsoft.Owin" version="3.0.1" />
+      <dependency id="Microsoft.Owin.Security" version="3.0.1" />
+      <dependency id="Owin" version="1.0.0" />
+    </dependencies>
+  </metadata>
+</package>

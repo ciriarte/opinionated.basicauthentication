@@ -7,8 +7,8 @@ Adds Basic Authentication To AspNet Owin Projects
 ```csharp
 public void Configuration(IAppBuilder app)
 {
-  // Other middleware
   app.UseBasicAuthentication("westeros", Validate);
+  // Other middleware (make sure it is bound before others, order matters)
 }
 
 Task<IEnumerable<Claim>> Validate(string id, string secret)
